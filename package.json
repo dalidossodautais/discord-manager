@@ -1,0 +1,16 @@
+{
+  "name": "discord",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun app"
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "sequelize": "^6.35.1"
+  }
+}
